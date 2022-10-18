@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.8;
+    background-color: black;
+}
+
+.system{
+    display: flex;
+    border: 2px solid black;
+    padding: 1% 10%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+  
+}
+
+.system1 a{
+    text-decoration: none;
+    
+    margin: 0px 20px;
+    color: white;
+}
+.system1 a:hover{
+    color: red;
+}
+.home{
+    background-color: white;
+   padding-bottom: 10px;
+   padding-top: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-bottom-left-radius: 10%;
+   border-bottom-right-radius: 10%;
+   color: red !important; 
+}
+
+.index1{
+     position: relative; 
+     width: 50%; 
+     top: -300px;
+     left: 400px;
+     
+    /* border: 2px solid wheat; */
+    /* position: absolute;
+    left: 500px; */
+}
+
+.index1 h1{
+    color: white;
+     position: absolute; 
+     left: 15%;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.index1 p{
+    color: white;
+     position: absolute; 
+    left: 10%;
+    top: 40px;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    /* line-height: 30px;  */
+}
+.index1 span{
+    color: red;
+}
+.index2{
+    /* margin-top: 400px; */
+text-align: center;
+margin-top: 150px;
+}
+.index2 h1{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.index2 img{
+    width: 85%;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    
+}
+.box{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 80px;
+    width: 75%;
+    transform: translateY(-100px);
+    /* transform: translateX(10px); */
+    background-color: white;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.box1{
+    margin: 0px 20px;
+}
+.box1 p{
+    color: gray;
+}
+.para{
+    /* border: 2px solid black; */
+    width: 80%;
+    color: gray;
+    margin-left: 100px;
+}
+.para1{
+    margin-bottom: 50px;
+    line-height: 20px;
+    word-spacing: 4px;
+}
+.para2{
+    line-height: 20px;
+    word-spacing: 4px;
+}
+.bottom{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.bottom h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.bottom p{
+    color: grey;
+    font-size: 14px;
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.down p{
+    color: gray;
+}
+.down1 img{
+    height: 120px;
+    border-radius: 10px;
+}
+.down2{
+    /* margin-left: -280px; */
+    position: relative;
+    right: 15%;
+}
+.down2 h1{
+    font-size: 20px;
+    
+}
+.down3 h1{
+    font-size: 20px;
+}
+.app1{
+    height: 80px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.app1 h1{
+text-align: center;
+margin-top: 30px;
+margin-left: 100px;
+font-size: 30px;
+
+}
+.app1 button{
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 100px;
+    border-radius: 10px;
+    color: red;
+    padding: 0px 10px;
+    font-weight: 600;
+
+}
+@media screen and (max-width:900px) {
+    #navbar{
+        display:  flex;
+    }
+    .system{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 500px;
+    }
+    .system1 a{
+        display: flex;
+        flex-direction: column;
+        margin: 5% 0px;
+        /* margin-bottom: 100px; */
+    }
+    .index1{
+        display: flex;
+        flex-direction: column;
+        left: 0%;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .index1 span{
+        font-size: 30px;
+    }
+    .index1 h1{
+        font-size: 30px;
+    }
+    .index2{
+        display: flex;
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    .index2 img{
+        width: 90%;
+        margin-left: 20px;
+        
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        border: 2px solid black;
+        text-align: center;
+        position: relative;
+        left: -35%;
+        width: 90%;
+        transform: translateY(20px)
+    }
+    .box1{
+        margin: 10px 0px;
+    }
+    .para{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        /* top: 10%; */
+        left: -15%;
+        width: 90%;
+        margin-top: 80px;
+        font-size: 20px;
+       
+    }
+    .bottom{
+       position: relative;
+       left: -15%;
+       bottom: 10%;
+    }
+    .bottom h1{
+        font-size: 40px;
+    }
+    .bottom p{
+        font-size: 20px;
+    }
+    .down{
+        display: flex; 
+        flex-direction: column;
+    }
+    .down1{
+        position: relative;
+    }
+    .down1 img{
+        width: 20%;
+        height: 100px;
+    }
+    .down2 {
+        position: absolute;
+        /* top: -400%; */
+        left: 23%;
+    }
+    .down3{
+        position: relative;
+        left: 50%;
+        /* margin-top: 50px; */
+    }
+    .app1{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+    .app1 button{
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+}
